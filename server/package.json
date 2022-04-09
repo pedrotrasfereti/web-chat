@@ -4,7 +4,7 @@
   "description": "My web messaging app server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts"
   },
   "keywords": [],
@@ -12,11 +12,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
+    "jest": "^27.5.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.3"
   },
