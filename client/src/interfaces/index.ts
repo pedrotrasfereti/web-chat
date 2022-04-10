@@ -8,4 +8,9 @@ interface IRoomInputPropTypes {
   handleChangeRoom: (newRoom: string) => void;
 }
 
-export type { INameInputPropTypes, IRoomInputPropTypes };
+interface IChatSessionPropTypes {
+  name: string;
+  room: string;
+}
+
+export type { INameInputPropTypes, IRoomInputPropTypes, IChatSessionPropTypes };
